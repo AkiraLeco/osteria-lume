@@ -63,13 +63,13 @@ Aplicação web de **cardápio digital** para um restaurante italiano **fictíci
 
 **Estrutura do cardápio**
 - Categorias sugeridas (o painel permite criar, renomear e reordenar):
-  1. **Antipasti** (entradas)
-  2. **Primi** (massas e risotos)
-  3. **Secondi** (pratos principais: carnes e peixes)
-  4. **Pizze**
-  5. **Dolci** (sobremesas)
-  6. **Bevande** (bebidas: vinhos, drinks, sem álcool, cafés)
-- Nome italiano em destaque, com a tradução como subtítulo (ex.: "Primi · Massas e risotos").
+  1. **Entradas** (Antipasti)
+  2. **Massas e Risotos** (Primi)
+  3. **Pratos Principais** (Secondi: carnes e peixes)
+  4. **Pizzas** (Pizze)
+  5. **Sobremesas** (Dolci)
+  6. **Bebidas** (Bevande: vinhos, drinks, sem álcool, cafés)
+- Nome da categoria no idioma escolhido, com o nome italiano como subtítulo (ex.: "Massas e Risotos · Primi" / "Pasta & Risotto · Primi").
 
 **Cada prato mostra**
 - Nome, descrição (ingredientes) e foto.

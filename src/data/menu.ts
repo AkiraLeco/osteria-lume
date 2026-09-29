@@ -34,8 +34,8 @@ const dish = ({ image = true, tags = [], ...rest }: DishInput): Dish => ({
 const categories: Category[] = [
   {
     id: "pranzo",
-    name: l("Pranzo Esecutivo", "Pranzo Esecutivo"),
-    subtitle: l("Almoço executivo · seg a sex", "Weekday set lunch"),
+    name: l("Almoço Executivo", "Set Lunch"),
+    subtitle: l("Pranzo Esecutivo · seg a sex", "Pranzo Esecutivo · Mon–Fri"),
     isActive: true,
     availability: { days: [1, 2, 3, 4, 5], from: "11:30", to: "15:00" },
     dishes: [
@@ -54,8 +54,8 @@ const categories: Category[] = [
   },
   {
     id: "antipasti",
-    name: l("Antipasti", "Antipasti"),
-    subtitle: l("Entradas", "Starters"),
+    name: l("Entradas", "Starters"),
+    subtitle: l("Antipasti", "Antipasti"),
     isActive: true,
     dishes: [
       dish({
@@ -103,8 +103,8 @@ const categories: Category[] = [
   },
   {
     id: "primi",
-    name: l("Primi", "Primi"),
-    subtitle: l("Massas e risotos", "Pasta and risotto"),
+    name: l("Massas e Risotos", "Pasta & Risotto"),
+    subtitle: l("Primi", "Primi"),
     isActive: true,
     dishes: [
       dish({
@@ -169,8 +169,8 @@ const categories: Category[] = [
   },
   {
     id: "secondi",
-    name: l("Secondi", "Secondi"),
-    subtitle: l("Carnes e peixes", "Meat and fish"),
+    name: l("Pratos Principais", "Main Courses"),
+    subtitle: l("Secondi · carnes e peixes", "Secondi · meat and fish"),
     isActive: true,
     dishes: [
       dish({
@@ -217,8 +217,8 @@ const categories: Category[] = [
   },
   {
     id: "pizze",
-    name: l("Pizze", "Pizze"),
-    subtitle: l("Massa de longa fermentação, forno a lenha", "Long-fermented dough, wood-fired"),
+    name: l("Pizzas", "Pizzas"),
+    subtitle: l("Pizze · massa de longa fermentação, forno a lenha", "Pizze · long-fermented dough, wood-fired"),
     isActive: true,
     dishes: [
       dish({
@@ -266,8 +266,8 @@ const categories: Category[] = [
   },
   {
     id: "dolci",
-    name: l("Dolci", "Dolci"),
-    subtitle: l("Sobremesas", "Desserts"),
+    name: l("Sobremesas", "Desserts"),
+    subtitle: l("Dolci", "Dolci"),
     isActive: true,
     dishes: [
       dish({
@@ -315,8 +315,8 @@ const categories: Category[] = [
   },
   {
     id: "bevande",
-    name: l("Bevande", "Bevande"),
-    subtitle: l("Vinhos, drinks e cafés", "Wine, drinks and coffee"),
+    name: l("Bebidas", "Drinks"),
+    subtitle: l("Bevande · vinhos, drinks e cafés", "Bevande · wine, drinks and coffee"),
     isActive: true,
     dishes: [
       dish({
