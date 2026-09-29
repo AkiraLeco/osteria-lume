@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+/*
+ * Paleta da Osteria Lume (PROJETO.md, seção 6).
+ * Todas as cores vivem em variáveis: o tema escuro só troca os valores.
+ * Sem data-theme, segue a preferência do sistema; com data-theme, a escolha do usuário vence.
+ */
+:root {
+  color-scheme: light;
+  --bg: #faf8f5;
+  --surface: #ffffff;
+  --surface-2: #f2eee8;
+  --text: #1c1c1c;
+  --muted: #6b6560;
+  --border: #e5dfd6;
+  --accent: #b5542d;
+  --accent-hover: #9a4524;
+  --on-accent: #ffffff;
+  --olive: #5b6b3a;
+  --olive-soft: #eef0e4;
+  --accent-soft: #f7e9e2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #141312;
+    --surface: #1d1b19;
+    --surface-2: #272421;
+    --text: #f3efe9;
+    --muted: #a8a097;
+    --border: #36322d;
+    --accent: #e08a62;
+    --accent-hover: #eca07c;
+    --on-accent: #141312;
+    --olive: #b3c28a;
+    --olive-soft: #2a2d22;
+    --accent-soft: #3a2820;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #141312;
+  --surface: #1d1b19;
+  --surface-2: #272421;
+  --text: #f3efe9;
+  --muted: #a8a097;
+  --border: #36322d;
+  --accent: #e08a62;
+  --accent-hover: #eca07c;
+  --on-accent: #141312;
+  --olive: #b3c28a;
+  --olive-soft: #2a2d22;
+  --accent-soft: #3a2820;
+}
+
+/* `dark:` do Tailwind segue as mesmas regras das variáveis acima. */
+@custom-variant dark {
+  &:where([data-theme="dark"], [data-theme="dark"] *) {
+    @slot;
+  }
+  @media (prefers-color-scheme: dark) {
+    &:where(:root:not([data-theme="light"]), :root:not([data-theme="light"]) *) {
+      @slot;
+    }
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-on-accent: var(--on-accent);
+  --color-olive: var(--olive);
+  --color-olive-soft: var(--olive-soft);
+  --color-accent-soft: var(--accent-soft);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-cormorant), ui-serif, Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Trava a rolagem da página enquanto o detalhe do prato está aberto. */
+html:has(dialog[open]) {
+  overflow: hidden;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Esconde a barra de rolagem da faixa de categorias sem impedir a rolagem. */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
