@@ -1,5 +1,7 @@
 # Osteria Lume · Cardápio Digital
 
+**Demo:** https://osteria-lume.vercel.app
+
 Cardápio digital de um restaurante italiano **fictício**, feito como projeto de portfólio.
 Funciona em qualquer tamanho de tela, com prioridade para o celular (o cliente chega pelo QR Code da mesa).
 
@@ -72,4 +74,4 @@ node scripts/fetch-images.mjs <slug>          # baixa a escolhida
 - [ ] Supabase: tabelas, regras de acesso (RLS) e seed a partir de `src/data/menu.ts`
 - [ ] Painel admin: login, CRUD de categorias e pratos, upload de fotos, botão "Esgotado", QR Code
 - [ ] Modo demonstração com dados restaurados diariamente (Vercel Cron)
-- [ ] Deploy em `osteria-lume.vercel.app`
+- [x] Deploy em [`osteria-lume.vercel.app`](https://osteria-lume.vercel.app)
