@@ -66,7 +66,7 @@ const categories: Category[] = [
           "Toasted rustic bread with fresh tomato, garlic, basil and extra virgin olive oil.",
         ),
         prices: single(34),
-        tags: ["vegetarian", "vegan"],
+        tags: ["vegan"],
       }),
       dish({
         id: "burrata-pugliese",
@@ -97,7 +97,7 @@ const categories: Category[] = [
           "Sourdough focaccia with rosemary, sea salt and olive oil.",
         ),
         prices: single(24),
-        tags: ["vegetarian", "vegan", "lactose_free"],
+        tags: ["vegan"],
       }),
     ],
   },
@@ -163,7 +163,7 @@ const categories: Category[] = [
           "Penne in a tomato, garlic and chilli sauce. For those who like the heat.",
         ),
         prices: single(58),
-        tags: ["vegetarian", "vegan", "lactose_free", "spicy"],
+        tags: ["vegan", "spicy"],
       }),
     ],
   },
@@ -181,25 +181,23 @@ const categories: Category[] = [
           "Braised veal shank with gremolata, served with saffron risotto.",
         ),
         prices: single(118),
-        tags: ["gluten_free"],
       }),
       dish({
         id: "filetto-gorgonzola",
         name: l("Filetto al Gorgonzola", "Filetto al Gorgonzola"),
         description: l(
-          "Medalhão de filé-mignon ao molho de gorgonzola, com batatas ao alecrim.",
-          "Beef tenderloin medallion in gorgonzola sauce, with rosemary potatoes.",
+          "Medalhão de filé-mignon ao molho de gorgonzola, com purê de batatas e legumes salteados.",
+          "Beef tenderloin medallion in gorgonzola sauce, with mashed potatoes and sautéed vegetables.",
         ),
         prices: single(112),
         tags: ["gluten_free"],
       }),
       dish({
         id: "salmone-limone",
-        image: false,
         name: l("Salmone al Limone", "Salmone al Limone"),
         description: l(
-          "Salmão grelhado com molho de limão-siciliano e alcaparras, e legumes da estação.",
-          "Grilled salmon with lemon-caper sauce and seasonal vegetables.",
+          "Salmão grelhado com molho de limão-siciliano, aspargos, tomate assado e arroz de açafrão.",
+          "Grilled salmon with lemon sauce, asparagus, roasted tomato and saffron rice.",
         ),
         prices: single(98),
         tags: ["gluten_free", "lactose_free"],
@@ -208,8 +206,8 @@ const categories: Category[] = [
         id: "pollo-parmigiana",
         name: l("Pollo alla Parmigiana", "Pollo alla Parmigiana"),
         description: l(
-          "Filé de frango empanado, molho de tomate e muçarela gratinada, com espaguete ao sugo.",
-          "Breaded chicken breast, tomato sauce and melted mozzarella, with spaghetti al sugo.",
+          "Filé de frango empanado, molho de tomate e muçarela gratinada, com batatas fritas e salada verde.",
+          "Breaded chicken breast, tomato sauce and melted mozzarella, with fries and green salad.",
         ),
         prices: single(79),
       }),
@@ -253,7 +251,6 @@ const categories: Category[] = [
       }),
       dish({
         id: "pizza-parma-rucola",
-        image: false,
         name: l("Parma e Rucola", "Parma e Rucola"),
         description: l(
           "Muçarela, presunto de Parma, rúcula fresca e lascas de parmesão.",
@@ -285,8 +282,8 @@ const categories: Category[] = [
         id: "panna-cotta",
         name: l("Panna Cotta ai Frutti Rossi", "Panna Cotta ai Frutti Rossi"),
         description: l(
-          "Creme de baunilha com calda de frutas vermelhas.",
-          "Vanilla cream with red berry coulis.",
+          "Creme de baunilha com frutas vermelhas frescas e calda de mel.",
+          "Vanilla cream with fresh berries and honey syrup.",
         ),
         prices: single(32),
         tags: ["vegetarian", "gluten_free"],
@@ -295,8 +292,8 @@ const categories: Category[] = [
         id: "cannoli",
         name: l("Cannoli Siciliani", "Cannoli Siciliani"),
         description: l(
-          "Massa crocante recheada com ricota doce, pistache e gotas de chocolate.",
-          "Crisp pastry shells filled with sweet ricotta, pistachio and chocolate chips.",
+          "Massa crocante recheada com ricota doce, pistache e cereja cristalizada.",
+          "Crisp pastry shells filled with sweet ricotta, pistachio and candied cherry.",
         ),
         prices: single(34),
         tags: ["vegetarian"],
@@ -351,7 +348,6 @@ const categories: Category[] = [
       }),
       dish({
         id: "limonata-casa",
-        image: false,
         name: l("Limonata della Casa", "Limonata della Casa"),
         description: l(
           "Limonada siciliana feita na hora, com hortelã.",
@@ -362,7 +358,6 @@ const categories: Category[] = [
       }),
       dish({
         id: "acqua-minerale",
-        image: false,
         name: l("Acqua Minerale", "Acqua Minerale"),
         description: l("Água mineral com ou sem gás, 500 ml.", "Still or sparkling mineral water, 500 ml."),
         prices: single(8),

@@ -16,9 +16,9 @@ type Props = { categories: Category[]; locale: Locale; dict: Dictionary };
 /** Altura da faixa fixa de categorias no celular (igual a `scroll-mt-22`); as seções param logo abaixo dela. */
 const STICKY_OFFSET = 88;
 
-// Prato vegano também serve para quem filtra por vegetariano.
+// Prato vegano também serve para quem filtra por vegetariano ou sem lactose.
 const hasTag = (dish: Dish, tag: DietaryTag) =>
-  dish.tags.includes(tag) || (tag === "vegetarian" && dish.tags.includes("vegan"));
+  dish.tags.includes(tag) || ((tag === "vegetarian" || tag === "lactose_free") && dish.tags.includes("vegan"));
 
 export function MenuBrowser({ categories, locale, dict }: Props) {
   const now = useRestaurantNow();

@@ -17,7 +17,7 @@ const ALLOWED = /^(CC0|Public domain|CC BY(-SA)? [0-9.]+)$/i;
 /** slug -> termo de busca (ou `file` para fixar um arquivo específico do Commons); `width` padrão: 1200px. */
 const IMAGES = {
   hero: { file: "Pizza Napoletana Contemporanea.jpg", width: 2400 },
-  "bruschetta-pomodoro": { file: "Bruschetta with tomato and basil.jpg" },
+  "bruschetta-pomodoro": { file: "Tomato and basil bruschetta (4925749658).jpg" },
   "burrata-pugliese": { file: "Burrata di bufala.jpg" },
   "carpaccio-manzo": { file: "Carpaccio Cipriani.jpg" },
   "focaccia-casa": { file: "Rosemary Focaccia.jpg" },
@@ -29,18 +29,20 @@ const IMAGES = {
   "penne-arrabbiata": { file: "Penne all'arrabbiata.jpg" },
   "ossobuco-milanese": { file: "Ossobuco con risotto alla milanese.jpg" },
   "filetto-gorgonzola": { file: "DSC 7130 Seared filet mignon served with creamy mashed potatoes and steamed vegetables on a white plate.jpg" },
-  "salmone-limone": { query: "salmone alla griglia" },
+  "salmone-limone": { file: "Catch of the day (5792693269).jpg" },
   "pollo-parmigiana": { file: "Chicken parmigiana.jpg" },
   "pizza-margherita": { file: "Tony's Napoletana Margherita Pizza (5991972038).jpg" },
   "pizza-diavola": { file: "Pepperoni pizza- boella co. 2024-02-17.jpg" },
   "pizza-quattro-formaggi": { file: "Four Cheese - Pizza 500 2023-11-10.jpg" },
-  "pizza-parma-rucola": { query: "pizza crudo rucola" },
+  "pizza-parma-rucola": { file: "Rossa pizza 23 January 2025 Trattoria & Dolci Solaire Resort NorthC.jpg" },
   tiramisu: { file: "Dolce Tiramisù monoporzione.jpg" },
   "panna-cotta": { file: "Panna Cotta with fresh berries.jpg" },
   cannoli: { file: "Cannoli siciliani (edited).jpg" },
   affogato: { file: "Affogato with Amarretti Biscotti - Tavola Di Famiglia 2026-02-27.jpg" },
   "chianti-classico": { file: "Bottle and glass of red wine.jpg" },
   prosecco: { file: "Waiter pouring Zardetto sparkling Prosecco.jpg" },
+  "limonata-casa": { file: "Homemade Mint Lemonade,Bangladesh.jpg" },
+  "acqua-minerale": { file: "Waiter serves water in a glass at a restaurant.jpg" },
   "aperol-spritz": { file: "Aperol Spritz - July 2024 - Sarah Stierch.jpg" },
   espresso: { file: "Espresso Coffee 01.jpg" },
   cappuccino: { file: "A cup of cappuccino.jpg" },
@@ -69,7 +71,7 @@ const api = (params) =>
 const strip = (html = "") => html.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 
 async function candidates({ query, file, width = 1200 }) {
-  const base = { prop: "imageinfo", iiprop: "url|size|extmetadata", iiurlwidth: String(width) };
+  const base = { prop: "imageinfo", iiprop: "url|size|extmetadata|user", iiurlwidth: String(width) };
   const json = file
     ? await api({ action: "query", titles: `File:${file}`, ...base })
     : await api({
@@ -93,7 +95,8 @@ async function candidates({ query, file, width = 1200 }) {
         thumb: info.thumburl,
         page: info.descriptionurl,
         license: strip(meta.LicenseShortName?.value),
-        author: strip(meta.Artist?.value) || "Autor desconhecido",
+        // Sem o campo "Artist", o autor é quem enviou o arquivo (obras próprias no Commons).
+        author: strip(meta.Artist?.value) || info.user || "Autor desconhecido",
       };
     })
     .filter(Boolean)
