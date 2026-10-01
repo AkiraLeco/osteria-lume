@@ -64,11 +64,13 @@ Aplicação web de **cardápio digital** para um restaurante italiano **fictíci
 **Estrutura do cardápio**
 - Categorias sugeridas (o painel permite criar, renomear e reordenar):
   1. **Entradas** (Antipasti)
-  2. **Massas e Risotos** (Primi)
-  3. **Pratos Principais** (Secondi: carnes e peixes)
-  4. **Pizzas** (Pizze)
-  5. **Sobremesas** (Dolci)
-  6. **Bebidas** (Bevande: vinhos, drinks, sem álcool, cafés)
+  2. **Sopas** (Zuppe e minestre)
+  3. **Massas e Risotos** (Primi)
+  4. **Pratos Principais** (Secondi)
+  5. **Acompanhamentos** (Contorni)
+  6. **Pizzas e Pães** (Pizze e focacce)
+  7. **Sobremesas** (Dolci)
+  8. **Bebidas** (Bevande: vinhos, drinks, sem álcool, cafés)
 - Nome da categoria no idioma escolhido, com o nome italiano como subtítulo (ex.: "Massas e Risotos · Primi" / "Pasta & Risotto · Primi").
 
 **Cada prato mostra**
@@ -206,49 +208,18 @@ dish_prices
 ## 9. Cardápio de exemplo (dados iniciais)
 
 Serve para popular o banco (seed) e deixar o portfólio realista. Preços fictícios.
+Os dados completos estão em `src/data/menu.ts`.
 
-**Antipasti**
-- Bruschetta al Pomodoro: pão tostado, tomate, alho, manjericão e azeite. R$ 34 · *vegetariano, vegano*
-- Burrata Pugliese: burrata, tomates confit, pesto e focaccia. R$ 62 · *vegetariano* · *Sugestão do chef*
-- Carpaccio di Manzo: lâminas de filé, rúcula, parmesão e alcaparras. R$ 58
-- Focaccia della Casa: alecrim e sal grosso. R$ 24 · *vegano*
+- **80 pratos regionais**, baseados no "Guia de 80 pratos da cozinha italiana" (setembro de 2026), do Valle d'Aosta à Sicília.
+- Organizados por tipo: Entradas (16), Sopas (11), Massas e Risotos (27), Pratos Principais (12), Acompanhamentos (4), Pizzas e Pães (8) e Sobremesas (2).
+- Cada prato traz a **região de origem**, que aparece no card e entra na busca.
+- Continuam o **Almoço Executivo** (seg–sex, 11h30–15h, R$ 69) e as **bebidas** (vinhos, drinks, água e cafés).
 
-**Primi**
-- Spaghetti alla Carbonara: guanciale, gema, pecorino e pimenta-do-reino. R$ 72 · *Mais pedido*
-- Tagliatelle al Ragù Bolognese: ragù cozido por 6 horas. R$ 76
-- Gnocchi al Pomodoro e Basilico. R$ 64 · *vegetariano*
-- Risotto ai Funghi: funghi porcini e parmesão. R$ 82 · *vegetariano, sem glúten*
-- Lasagna della Nonna. R$ 74
-- Penne all'Arrabbiata. R$ 58 · *vegano, picante*
-
-**Secondi**
-- Ossobuco alla Milanese, com risoto de açafrão. R$ 118
-- Filetto al Gorgonzola. R$ 112 · *sem glúten*
-- Salmone al Limone, com legumes grelhados. R$ 98 · *sem glúten, sem lactose*
-- Pollo alla Parmigiana. R$ 79
-
-**Pizze**
-- Margherita: tomate, mozzarella fior di latte e manjericão. Broto R$ 42 · Grande R$ 64 · *vegetariano*
-- Diavola: salame picante. Broto R$ 48 · Grande R$ 72 · *picante*
-- Quattro Formaggi. Broto R$ 50 · Grande R$ 76 · *vegetariano*
-- Parma e Rúcula. Broto R$ 54 · Grande R$ 82 · *Novidade*
-
-**Dolci**
-- Tiramisù. R$ 36 · *Mais pedido*
-- Panna Cotta ai Frutti Rossi. R$ 32 · *sem glúten*
-- Cannoli Siciliani. R$ 34
-- Affogato al Caffè. R$ 26 · *sem glúten*
-
-**Bevande**
-- Chianti Classico DOCG: Taça R$ 38 · Garrafa R$ 180
-- Prosecco: Taça R$ 32 · Garrafa R$ 140
-- Aperol Spritz. R$ 42
-- Limonata della Casa. R$ 16 · *vegano*
-- Água mineral com ou sem gás. R$ 8
-- Espresso R$ 9 · Cappuccino R$ 14
-
-**Menu do dia (exemplo)**
-- *Pranzo Esecutivo* (seg–sex, 11h30–15h): entrada + prato + sobremesa. R$ 69
+**Regras dos selos**
+- Os selos valem para a versão servida no restaurante. Quando o guia marca "depende da receita" (*), a descrição do prato diz qual é a versão da casa, e o selo só entra se valer para ela.
+- "Vegano" implica vegetariano e sem lactose, e os filtros tratam assim.
+- Algumas classificações do guia foram corrigidas para a receita tradicional: Risotto alla Milanese e Lasagne verdi não são vegetarianos; Risi e bisi não é vegano nem sem lactose; Sarde in saor, Baccalà alla vicentina e Saltimbocca não são sem glúten (são enfarinhados); Gnocco fritto e Crescia sfogliata levam banha; Cacio e pepe e Gricia usam pimenta-do-reino, não peperoncino; Tiramisù é do Vêneto/Friuli.
+- Um aviso sob os filtros lembra que a cozinha manipula trigo, leite e frutos do mar (contaminação cruzada).
 
 ---
 

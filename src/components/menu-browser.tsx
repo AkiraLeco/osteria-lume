@@ -43,7 +43,7 @@ export function MenuBrowser({ categories, locale, dict }: Props) {
         dishes: category.dishes.filter((dish) => {
           if (!inTime(dish)) return false;
           if (!tags.every((tag) => hasTag(dish, tag))) return false;
-          const haystack = normalize(`${dish.name[locale]} ${dish.description[locale]}`);
+          const haystack = normalize(`${dish.name[locale]} ${dish.description[locale]} ${dish.region?.[locale] ?? ""}`);
           return terms.every((term) => haystack.includes(term));
         }),
       }))
@@ -158,6 +158,7 @@ export function MenuBrowser({ categories, locale, dict }: Props) {
                 {dict.menu.clearFilters}
               </button>
             )}
+            <p className="mt-3 text-xs leading-relaxed text-muted">{dict.menu.dietaryNote}</p>
           </fieldset>
 
           <nav aria-label={dict.menu.categories} className="mt-8 hidden lg:block">

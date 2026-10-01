@@ -25,10 +25,12 @@ const pt = {
   menu: {
     categories: "Categorias",
     searchPlaceholder: "Buscar no cardápio",
-    searchLabel: "Buscar prato ou ingrediente",
+    searchLabel: "Buscar prato, ingrediente ou região",
     clearSearch: "Limpar busca",
     filters: "Filtrar por",
     clearFilters: "Limpar filtros",
+    dietaryNote:
+      "Os selos descrevem as receitas. Nossa cozinha manipula trigo, leite e frutos do mar: em caso de doença celíaca ou alergia, fale com o garçom.",
     noResults: "Nenhum prato encontrado.",
     noResultsHint: "Tente outra palavra ou remova algum filtro.",
     soldOut: "Esgotado",
@@ -91,10 +93,12 @@ const en: Dictionary = {
   menu: {
     categories: "Categories",
     searchPlaceholder: "Search the menu",
-    searchLabel: "Search for a dish or ingredient",
+    searchLabel: "Search for a dish, ingredient or region",
     clearSearch: "Clear search",
     filters: "Filter by",
     clearFilters: "Clear filters",
+    dietaryNote:
+      "Labels describe the recipes. Our kitchen handles wheat, dairy and shellfish: if you have coeliac disease or an allergy, please tell your server.",
     noResults: "No dishes found.",
     noResultsHint: "Try another word or remove a filter.",
     soldOut: "Sold out",

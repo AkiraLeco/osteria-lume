@@ -9,7 +9,8 @@ Funciona em qualquer tamanho de tela, com prioridade para o celular (o cliente c
 
 ## Funcionalidades
 
-- Cardápio por categorias (Antipasti, Primi, Secondi, Pizze, Dolci, Bevande), com foto, descrição e preço.
+- 80 pratos regionais italianos, do Valle d'Aosta à Sicília, organizados por tipo (Entradas, Sopas, Massas e Risotos, Pratos Principais, Acompanhamentos, Pizzas e Pães, Sobremesas), mais bebidas.
+- Cada prato mostra foto, região de origem, descrição e preço; a busca também encontra pratos pela região.
 - Preços por tamanho exibidos no card (ex.: `Taça R$ 38 · Garrafa R$ 180`).
 - Selos alimentares com ícone e texto: vegetariano, vegano, sem glúten, sem lactose, picante.
 - Destaques: sugestão do chef, mais pedido, novidade.

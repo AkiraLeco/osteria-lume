@@ -5,25 +5,7 @@
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Pizza_Napoletana_Contemporanea.jpg"
   },
-  "bruschetta-pomodoro": {
-    "title": "Tomato and basil bruschetta (4925749658).jpg",
-    "author": "Abi Porter",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Tomato_and_basil_bruschetta_(4925749658).jpg"
-  },
-  "burrata-pugliese": {
-    "title": "Burrata di bufala.jpg",
-    "author": "Justlettersandnumbers",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Burrata_di_bufala.jpg"
-  },
-  "carpaccio-manzo": {
-    "title": "Carpaccio Cipriani.jpg",
-    "author": "Nurban",
-    "license": "CC0",
-    "source": "https://commons.wikimedia.org/wiki/File:Carpaccio_Cipriani.jpg"
-  },
-  "focaccia-casa": {
+  "focaccia-genovese": {
     "title": "Rosemary Focaccia.jpg",
     "author": "Parkerman &amp; Christie from San Diego, USA",
     "license": "CC BY 2.0",
@@ -41,47 +23,11 @@
     "license": "CC BY-SA 3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Tagliatelle_al_rag%C3%B9.jpg"
   },
-  "gnocchi-pomodoro": {
-    "title": "Gnocchi al Pomodoro (2920979155).jpg",
-    "author": "Chi King",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Gnocchi_al_Pomodoro_(2920979155).jpg"
-  },
-  "risotto-funghi": {
-    "title": "Risotto ai funghi porcini.JPG",
-    "author": "Number55",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Risotto_ai_funghi_porcini.JPG"
-  },
-  "lasagna-nonna": {
-    "title": "Meaty Lasagna 8of8 (8736299782).jpg",
-    "author": "Breville USA",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Meaty_Lasagna_8of8_(8736299782).jpg"
-  },
-  "penne-arrabbiata": {
-    "title": "Penne all'arrabbiata.jpg",
-    "author": "DC",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Penne_all%27arrabbiata.jpg"
-  },
   "ossobuco-milanese": {
     "title": "Ossobuco con risotto alla milanese.jpg",
     "author": "pier",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Ossobuco_con_risotto_alla_milanese.jpg"
-  },
-  "filetto-gorgonzola": {
-    "title": "DSC 7130 Seared filet mignon served with creamy mashed potatoes and steamed vegetables on a white plate.jpg",
-    "author": "PattayaPatrol",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:DSC_7130_Seared_filet_mignon_served_with_creamy_mashed_potatoes_and_steamed_vegetables_on_a_white_plate.jpg"
-  },
-  "pollo-parmigiana": {
-    "title": "Chicken parmigiana.jpg",
-    "author": "Tristan Kenney",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Chicken_parmigiana.jpg"
   },
   "pizza-margherita": {
     "title": "Tony's Napoletana Margherita Pizza (5991972038).jpg",
@@ -95,12 +41,6 @@
     "license": "CC0",
     "source": "https://commons.wikimedia.org/wiki/File:Pepperoni_pizza-_boella_co._2024-02-17.jpg"
   },
-  "pizza-quattro-formaggi": {
-    "title": "Four Cheese - Pizza 500 2023-11-10.jpg",
-    "author": "Andy Li",
-    "license": "CC0",
-    "source": "https://commons.wikimedia.org/wiki/File:Four_Cheese_-_Pizza_500_2023-11-10.jpg"
-  },
   "tiramisu": {
     "title": "Dolce Tiramisù monoporzione.jpg",
     "author": "Anna.Massini",
@@ -112,18 +52,6 @@
     "author": "Kimberly Vardeman",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Panna_Cotta_with_fresh_berries.jpg"
-  },
-  "cannoli": {
-    "title": "Cannoli siciliani (edited).jpg",
-    "author": "original work: Stefano Mortellaro derivative work: Angelus (talk)",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cannoli_siciliani_(edited).jpg"
-  },
-  "affogato": {
-    "title": "Affogato with Amarretti Biscotti - Tavola Di Famiglia 2026-02-27.jpg",
-    "author": "Andy Li",
-    "license": "CC0",
-    "source": "https://commons.wikimedia.org/wiki/File:Affogato_with_Amarretti_Biscotti_-_Tavola_Di_Famiglia_2026-02-27.jpg"
   },
   "chianti-classico": {
     "title": "Bottle and glass of red wine.jpg",
@@ -155,18 +83,6 @@
     "license": "CC BY 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:A_cup_of_cappuccino.jpg"
   },
-  "salmone-limone": {
-    "title": "Catch of the day (5792693269).jpg",
-    "author": "Matt @ PEK from Taipei, Taiwan",
-    "license": "CC BY-SA 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Catch_of_the_day_(5792693269).jpg"
-  },
-  "pizza-parma-rucola": {
-    "title": "Rossa pizza 23 January 2025 Trattoria & Dolci Solaire Resort NorthC.jpg",
-    "author": "Valenzuela400",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Rossa_pizza_23_January_2025_Trattoria_%26_Dolci_Solaire_Resort_NorthC.jpg"
-  },
   "limonata-casa": {
     "title": "Homemade Mint Lemonade,Bangladesh.jpg",
     "author": "Evening42",
@@ -178,5 +94,413 @@
     "author": "Shixart1985",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Waiter_serves_water_in_a_glass_at_a_restaurant.jpg"
+  },
+  "bagna-cauda": {
+    "title": "Bagna càuda dip.jpg",
+    "author": "Masaaki Komori from Tokyo, JAPAN",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bagna_c%C3%A0uda_dip.jpg"
+  },
+  "vitello-tonnato": {
+    "title": "Vitello tonnato (6977537544).jpg",
+    "author": "cyclonebill from Copenhagen, Denmark",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vitello_tonnato_(6977537544).jpg"
+  },
+  "farinata-ceci": {
+    "title": "Farinata di ceci 01.jpg",
+    "author": "Alessio Sbarbaro User_talk:Yoggysot",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Farinata_di_ceci_01.jpg"
+  },
+  "sarde-in-saor": {
+    "title": "Sarde in saòr.jpg",
+    "author": "ezioman",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sarde_in_sa%C3%B2r.jpg"
+  },
+  "gnocco-fritto": {
+    "title": "Gnocco Fritto.jpg",
+    "author": "DinaBenedettoFerrandina",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gnocco_Fritto.jpg"
+  },
+  "olive-ascolana": {
+    "title": "Olive all'ascolana.jpg",
+    "author": "Manuela Zangara",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Olive_all%27ascolana.jpg"
+  },
+  "panzanella": {
+    "title": "Panzanella con pomodori a grappolo.jpg",
+    "author": "Albarubescens",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Panzanella_con_pomodori_a_grappolo.jpg"
+  },
+  "carciofi-romana": {
+    "title": "Carciofi alla Romana.jpg",
+    "author": "C. Shen",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carciofi_alla_Romana.jpg"
+  },
+  "carciofi-giudia": {
+    "title": "Carciofi alla Giudìa.jpg",
+    "author": "Marco Iannantuoni",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carciofi_alla_Giud%C3%ACa.jpg"
+  },
+  "suppli": {
+    "title": "Supplì al telefono.jpg",
+    "author": "Krista",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Suppl%C3%AC_al_telefono.jpg"
+  },
+  "frittata-pasta": {
+    "title": "Frittata-di-spaghetti.jpg",
+    "author": "Albertomos",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Frittata-di-spaghetti.jpg"
+  },
+  "arancini": {
+    "title": "Arancini 002.jpg",
+    "author": "Gmelfi",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Arancini_002.jpg"
+  },
+  "panelle": {
+    "title": "Pane e panelle.jpg",
+    "author": "Dedda71",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pane_e_panelle.jpg"
+  },
+  "erbazzone": {
+    "title": "Scarpasòun.jpg",
+    "author": "Sciking",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Scarpas%C3%B2un.jpg"
+  },
+  "tortellini-brodo": {
+    "title": "Tortellini in brodo Bologna.jpg",
+    "author": "Nick.mon",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tortellini_in_brodo_Bologna.jpg"
+  },
+  "cappelletti-brodo": {
+    "title": "01 Cappelletti in brodo.jpg",
+    "author": "Lungoleno",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:01_Cappelletti_in_brodo.jpg"
+  },
+  "ribollita": {
+    "title": "Ribollita toscana.JPG",
+    "author": "Ithunn",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ribollita_toscana.JPG"
+  },
+  "pappa-pomodoro": {
+    "title": "Pappa al pomodoro.jpg",
+    "author": "fugzu from Pistoia, Italia",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pappa_al_pomodoro.jpg"
+  },
+  "acquacotta": {
+    "title": "Acquacotta.jpg",
+    "author": "Fooding Around",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Acquacotta.jpg"
+  },
+  "pappa-cavolo-nero": {
+    "title": "Widowed lentils soup with carrot and cavolo nero (8424513624).jpg",
+    "author": "Lablascovegmenu from London",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Widowed_lentils_soup_with_carrot_and_cavolo_nero_(8424513624).jpg"
+  },
+  "pasta-fagioli": {
+    "title": "Pasta e fagioli cannellini.jpg",
+    "author": "Spinoziano",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pasta_e_fagioli_cannellini.jpg"
+  },
+  "pasta-patate": {
+    "title": "Pasta Patate e Provola.jpg",
+    "author": "Mojmir Churavy",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pasta_Patate_e_Provola.jpg"
+  },
+  "risi-bisi": {
+    "title": "Risi e bisi.JPG",
+    "author": "Ilaria22",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Risi_e_bisi.JPG"
+  },
+  "canederli": {
+    "title": "Semmelknödel.jpg",
+    "author": "Kobako",
+    "license": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Semmelkn%C3%B6del.jpg"
+  },
+  "agnolotti-plin": {
+    "title": "Agnolotti Kappa.jpg",
+    "author": "さえぼー",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Agnolotti_Kappa.jpg"
+  },
+  "trenette-pesto": {
+    "title": "Trenette al pesto con patate e fagiolini.jpg",
+    "author": "LazyBaby",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Trenette_al_pesto_con_patate_e_fagiolini.jpg"
+  },
+  "trofie-pesto": {
+    "title": "Trofie al pesto .jpg",
+    "author": "Pastalovers",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Trofie_al_pesto_.jpg"
+  },
+  "risotto-milanese": {
+    "title": "Risotto alla Milanese.JPG",
+    "author": "Number55",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Risotto_alla_Milanese.JPG"
+  },
+  "pizzoccheri": {
+    "title": "Esno4Wkmana jul 2014 Cassnam 059.jpg",
+    "author": "Cassinam",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Esno4Wkmana_jul_2014_Cassnam_059.jpg"
+  },
+  "bigoli-salsa": {
+    "title": "Bigoli-993426 960 720.jpg",
+    "author": "letitaly",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bigoli-993426_960_720.jpg"
+  },
+  "lasagne-verdi": {
+    "title": "Lasagne verdi romagnole 2.jpg",
+    "author": "GastRomagna",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lasagne_verdi_romagnole_2.jpg"
+  },
+  "vincisgrassi": {
+    "title": "Vincisgrassi.jpg",
+    "author": "Ramagliolo9",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vincisgrassi.jpg"
+  },
+  "pici-aglione": {
+    "title": "Pici all'aglione.jpg",
+    "author": "Superchilum",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pici_all%27aglione.jpg"
+  },
+  "amatriciana": {
+    "title": "Bucatini amatriciana Roma 2019.jpg",
+    "author": "Blackcat",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bucatini_amatriciana_Roma_2019.jpg"
+  },
+  "cacio-pepe": {
+    "title": "Cacio e pepe.jpg",
+    "author": "Popo le Chien",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cacio_e_pepe.jpg"
+  },
+  "gricia": {
+    "title": "Rigatoni Alla Gricia 5.jpg",
+    "author": "Key West Wedding Photography",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rigatoni_Alla_Gricia_5.jpg"
+  },
+  "spaghetti-vongole": {
+    "title": "Vermicelli alle vongole lupino.jpg",
+    "author": "Albarubescens",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vermicelli_alle_vongole_lupino.jpg"
+  },
+  "gnocchi-sorrentina": {
+    "title": "Gnocchi alla sorrentina.jpg",
+    "author": "Davide Zambelli",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gnocchi_alla_sorrentina.jpg"
+  },
+  "orecchiette-cime-rapa": {
+    "title": "Orecchiette broccoli e salsiccia.jpg",
+    "author": "Federica.tamburini.75",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Orecchiette_broccoli_e_salsiccia.jpg"
+  },
+  "ciceri-tria": {
+    "title": "Ciceri e Tria 2.JPG",
+    "author": "Valerialucatello",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ciceri_e_Tria_2.JPG"
+  },
+  "pasta-muddica": {
+    "title": "Pasta mollica e acciughe cosentina.jpg",
+    "author": "GrandeMister2022",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pasta_mollica_e_acciughe_cosentina.jpg"
+  },
+  "fileja-nduja": {
+    "title": "Fileja-nduja-recipe.jpg",
+    "author": "Maxfalduto",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fileja-nduja-recipe.jpg"
+  },
+  "pasta-norma": {
+    "title": "Pasta Norma Villa Principe di Belmonte Ispica 2017.jpg",
+    "author": "Muesse",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pasta_Norma_Villa_Principe_di_Belmonte_Ispica_2017.jpg"
+  },
+  "pasta-sarde": {
+    "title": "Pasta con le sarde 2.jpg",
+    "author": "Joy",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pasta_con_le_sarde_2.jpg"
+  },
+  "culurgiones": {
+    "title": "Culurgiones Ogliastra.jpg",
+    "author": "Marica Massaro",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Culurgiones_Ogliastra.jpg"
+  },
+  "malloreddus": {
+    "title": "MacaronesDePunzu(Malloreddus).JPG",
+    "author": "Shardan",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MacaronesDePunzu(Malloreddus).JPG"
+  },
+  "carbonade": {
+    "title": "Una giornata ad Arpy (AO).jpg",
+    "author": "Ferruccio Zanone",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Una_giornata_ad_Arpy_(AO).jpg"
+  },
+  "cotoletta-milanese": {
+    "title": "Milanesa.jpg",
+    "author": "mteson Marcelo Teson Los Angeles, CA, USA",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Milanesa.jpg"
+  },
+  "baccala-vicentina": {
+    "title": "Vicenza, Espressamente, baccala vicentina.jpg",
+    "author": "Palickap",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vicenza,_Espressamente,_baccala_vicentina.jpg"
+  },
+  "fegato-veneziana": {
+    "title": "Chicken Livers.jpg",
+    "author": "Joe Foodie",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken_Livers.jpg"
+  },
+  "polenta-ragu": {
+    "title": "Polenta tradicional con ragú de carne.jpg",
+    "author": "Horacio Cambeiro",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Polenta_tradicional_con_rag%C3%BA_de_carne.jpg"
+  },
+  "saltimbocca": {
+    "title": "Saltimbocca alla romana (5461153662).jpg",
+    "author": "Katrin Gilger",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Saltimbocca_alla_romana_(5461153662).jpg"
+  },
+  "parmigiana-melanzane": {
+    "title": "Parmigiana di melanzane.jpg",
+    "author": "Schellenberg",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Parmigiana_di_melanzane.jpg"
+  },
+  "parmigiana-calabrese": {
+    "title": "Melanzane alla parmigiana - 14913732327.jpg",
+    "author": "Joy",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Melanzane_alla_parmigiana_-_14913732327.jpg"
+  },
+  "tiella-barese": {
+    "title": "Patate riso e cozze.jpg",
+    "author": "it: Markx89",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Patate_riso_e_cozze.jpg"
+  },
+  "fagioli-uccelletto": {
+    "title": "Fagioli cannellini all'uccelletto.jpg",
+    "author": "Aplasia",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fagioli_cannellini_all%27uccelletto.jpg"
+  },
+  "peperoni-cruschi": {
+    "title": "Peperoni cruschi 2.jpg",
+    "author": "fugzu",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Peperoni_cruschi_2.jpg"
+  },
+  "pipi-patate": {
+    "title": "Pipi malangiani e patati 2013.JPG",
+    "author": "Marcuscalabresus",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pipi_malangiani_e_patati_2013.JPG"
+  },
+  "caponata": {
+    "title": "Caponata nissena.jpg",
+    "author": "Auregann",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Caponata_nissena.jpg"
+  },
+  "pizza-marinara": {
+    "title": "Pizza marinara (Napoli).jpg",
+    "author": "Ruthven",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pizza_marinara_(Napoli).jpg"
+  },
+  "focaccia-barese": {
+    "title": "FocacciaBarese.jpg",
+    "author": "Elfmir",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:FocacciaBarese.jpg"
+  },
+  "sfincione": {
+    "title": "Sfincione palermitano.jpg",
+    "author": "Rino Porrovecchio",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sfincione_palermitano.jpg"
+  },
+  "crescia-sfogliata": {
+    "title": "Cresciafoje.jpg",
+    "author": "Paolo F. Bragaglia, dir. art. Paolo Tramannoni (Ptram at Italian Wikipedia)",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Cresciafoje.jpg"
+  },
+  "pane-carasau": {
+    "title": "Pane carasau.jpg",
+    "author": "Luigi Chiesa",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pane_carasau.jpg"
+  },
+  "pane-pomodoro": {
+    "title": "Pa amb tomàquet - 001.jpg",
+    "author": "Mutari",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Pa_amb_tom%C3%A0quet_-_001.jpg"
+  },
+  "tajarin-ragu": {
+    "title": "Tajarin al ragù.jpg",
+    "author": "lazy fri13th",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tajarin_al_rag%C3%B9.jpg"
+  },
+  "strangozzi-tartufo": {
+    "title": "Tagliatelle kun Trufo, Historia centro de Florenco.jpg",
+    "author": "Super nabla",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tagliatelle_kun_Trufo,_Historia_centro_de_Florenco.jpg"
+  },
+  "polenta-taragna": {
+    "title": "Polenta con formaggio 01.jpg",
+    "author": "Alessio Sbarbaro User_talk:Yoggysot",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Polenta_con_formaggio_01.jpg"
   }
 }

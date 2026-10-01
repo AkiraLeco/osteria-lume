@@ -52,6 +52,9 @@ export function DishCard({ dish, locale, dict, onOpen }: Props) {
             <HighlightBadge highlight={dish.highlight} dict={dict} />
           </div>
         )}
+        {dish.region && (
+          <p className="-mb-1 text-xs font-medium tracking-wider text-muted uppercase">{dish.region[locale]}</p>
+        )}
         <h3 className="font-serif text-xl leading-tight font-semibold">
           {/* O botão cobre o card inteiro: um só alvo de toque, sem aninhar conteúdo de bloco dentro de <button>. */}
           <button

@@ -54,6 +54,9 @@ export function DishDialog({ dish, locale, dict, onClose }: Props) {
                 </span>
               )}
             </div>
+            {dish.region && (
+              <p className="-mb-2 text-xs font-medium tracking-wider text-muted uppercase">{dish.region[locale]}</p>
+            )}
             <h2 id="dish-dialog-title" className="font-serif text-3xl leading-tight font-semibold sm:text-4xl">
               {dish.name[locale]}
             </h2>

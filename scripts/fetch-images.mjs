@@ -17,28 +17,14 @@ const ALLOWED = /^(CC0|Public domain|CC BY(-SA)? [0-9.]+)$/i;
 /** slug -> termo de busca (ou `file` para fixar um arquivo específico do Commons); `width` padrão: 1200px. */
 const IMAGES = {
   hero: { file: "Pizza Napoletana Contemporanea.jpg", width: 2400 },
-  "bruschetta-pomodoro": { file: "Tomato and basil bruschetta (4925749658).jpg" },
-  "burrata-pugliese": { file: "Burrata di bufala.jpg" },
-  "carpaccio-manzo": { file: "Carpaccio Cipriani.jpg" },
-  "focaccia-casa": { file: "Rosemary Focaccia.jpg" },
+  "focaccia-genovese": { file: "Rosemary Focaccia.jpg" },
   "spaghetti-carbonara": { file: "Spaghetti alla Carbonara 3.jpg" },
   "tagliatelle-ragu": { file: "Tagliatelle al ragù.jpg" },
-  "gnocchi-pomodoro": { file: "Gnocchi al Pomodoro (2920979155).jpg" },
-  "risotto-funghi": { file: "Risotto ai funghi porcini.JPG" },
-  "lasagna-nonna": { file: "Meaty Lasagna 8of8 (8736299782).jpg" },
-  "penne-arrabbiata": { file: "Penne all'arrabbiata.jpg" },
   "ossobuco-milanese": { file: "Ossobuco con risotto alla milanese.jpg" },
-  "filetto-gorgonzola": { file: "DSC 7130 Seared filet mignon served with creamy mashed potatoes and steamed vegetables on a white plate.jpg" },
-  "salmone-limone": { file: "Catch of the day (5792693269).jpg" },
-  "pollo-parmigiana": { file: "Chicken parmigiana.jpg" },
   "pizza-margherita": { file: "Tony's Napoletana Margherita Pizza (5991972038).jpg" },
   "pizza-diavola": { file: "Pepperoni pizza- boella co. 2024-02-17.jpg" },
-  "pizza-quattro-formaggi": { file: "Four Cheese - Pizza 500 2023-11-10.jpg" },
-  "pizza-parma-rucola": { file: "Rossa pizza 23 January 2025 Trattoria & Dolci Solaire Resort NorthC.jpg" },
   tiramisu: { file: "Dolce Tiramisù monoporzione.jpg" },
   "panna-cotta": { file: "Panna Cotta with fresh berries.jpg" },
-  cannoli: { file: "Cannoli siciliani (edited).jpg" },
-  affogato: { file: "Affogato with Amarretti Biscotti - Tavola Di Famiglia 2026-02-27.jpg" },
   "chianti-classico": { file: "Bottle and glass of red wine.jpg" },
   prosecco: { file: "Waiter pouring Zardetto sparkling Prosecco.jpg" },
   "limonata-casa": { file: "Homemade Mint Lemonade,Bangladesh.jpg" },
@@ -46,6 +32,74 @@ const IMAGES = {
   "aperol-spritz": { file: "Aperol Spritz - July 2024 - Sarah Stierch.jpg" },
   espresso: { file: "Espresso Coffee 01.jpg" },
   cappuccino: { file: "A cup of cappuccino.jpg" },
+  "bagna-cauda": { file: "Bagna càuda dip.jpg" },
+  "vitello-tonnato": { file: "Vitello tonnato (6977537544).jpg" },
+  "farinata-ceci": { file: "Farinata di ceci 01.jpg" },
+  "sarde-in-saor": { file: "Sarde in saòr.jpg" },
+  "gnocco-fritto": { file: "Gnocco Fritto.jpg" },
+  "olive-ascolana": { file: "Olive all'ascolana.jpg" },
+  panzanella: { file: "Panzanella con pomodori a grappolo.jpg" },
+  "carciofi-romana": { file: "Carciofi alla Romana.jpg" },
+  "carciofi-giudia": { file: "Carciofi alla Giudìa.jpg" },
+  suppli: { file: "Supplì al telefono.jpg" },
+  "frittata-pasta": { file: "Frittata-di-spaghetti.jpg" },
+  arancini: { file: "Arancini 002.jpg" },
+  panelle: { file: "Pane e panelle.jpg" },
+  erbazzone: { file: "Scarpasòun.jpg" },
+  "tortellini-brodo": { file: "Tortellini in brodo Bologna.jpg" },
+  "cappelletti-brodo": { file: "01 Cappelletti in brodo.jpg" },
+  ribollita: { file: "Ribollita toscana.JPG" },
+  "pappa-pomodoro": { file: "Pappa al pomodoro.jpg" },
+  acquacotta: { file: "Acquacotta.jpg" },
+  "pappa-cavolo-nero": { file: "Widowed lentils soup with carrot and cavolo nero (8424513624).jpg" },
+  "pasta-fagioli": { file: "Pasta e fagioli cannellini.jpg" },
+  "pasta-patate": { file: "Pasta Patate e Provola.jpg" },
+  "risi-bisi": { file: "Risi e bisi.JPG" },
+  canederli: { file: "Semmelknödel.jpg" },
+  "agnolotti-plin": { file: "Agnolotti Kappa.jpg" },
+  "trenette-pesto": { file: "Trenette al pesto con patate e fagiolini.jpg" },
+  "trofie-pesto": { file: "Trofie al pesto .jpg" },
+  "risotto-milanese": { file: "Risotto alla Milanese.JPG" },
+  pizzoccheri: { file: "Esno4Wkmana jul 2014 Cassnam 059.jpg" },
+  "bigoli-salsa": { file: "Bigoli-993426 960 720.jpg" },
+  "lasagne-verdi": { file: "Lasagne verdi romagnole 2.jpg" },
+  vincisgrassi: { file: "Vincisgrassi.jpg" },
+  "pici-aglione": { file: "Pici all'aglione.jpg" },
+  amatriciana: { file: "Bucatini amatriciana Roma 2019.jpg" },
+  "cacio-pepe": { file: "Cacio e pepe.jpg" },
+  gricia: { file: "Rigatoni Alla Gricia 5.jpg" },
+  "spaghetti-vongole": { file: "Vermicelli alle vongole lupino.jpg" },
+  "gnocchi-sorrentina": { file: "Gnocchi alla sorrentina.jpg" },
+  "orecchiette-cime-rapa": { file: "Orecchiette broccoli e salsiccia.jpg" },
+  "ciceri-tria": { file: "Ciceri e Tria 2.JPG" },
+  "pasta-muddica": { file: "Pasta mollica e acciughe cosentina.jpg" },
+  "fileja-nduja": { file: "Fileja-nduja-recipe.jpg" },
+  "pasta-norma": { file: "Pasta Norma Villa Principe di Belmonte Ispica 2017.jpg" },
+  "pasta-sarde": { file: "Pasta con le sarde 2.jpg" },
+  culurgiones: { file: "Culurgiones Ogliastra.jpg" },
+  malloreddus: { file: "MacaronesDePunzu(Malloreddus).JPG" },
+  carbonade: { file: "Una giornata ad Arpy (AO).jpg" },
+  "cotoletta-milanese": { file: "Milanesa.jpg" },
+  "baccala-vicentina": { file: "Vicenza, Espressamente, baccala vicentina.jpg" },
+  "fegato-veneziana": { file: "Chicken Livers.jpg" },
+  "polenta-ragu": { file: "Polenta tradicional con ragú de carne.jpg" },
+  saltimbocca: { file: "Saltimbocca alla romana (5461153662).jpg" },
+  "parmigiana-melanzane": { file: "Parmigiana di melanzane.jpg" },
+  "parmigiana-calabrese": { file: "Melanzane alla parmigiana - 14913732327.jpg" },
+  "tiella-barese": { file: "Patate riso e cozze.jpg" },
+  "fagioli-uccelletto": { file: "Fagioli cannellini all'uccelletto.jpg" },
+  "peperoni-cruschi": { file: "Peperoni cruschi 2.jpg" },
+  "pipi-patate": { file: "Pipi malangiani e patati 2013.JPG" },
+  caponata: { file: "Caponata nissena.jpg" },
+  "pizza-marinara": { file: "Pizza marinara (Napoli).jpg" },
+  "focaccia-barese": { file: "FocacciaBarese.jpg" },
+  sfincione: { file: "Sfincione palermitano.jpg" },
+  "crescia-sfogliata": { file: "Cresciafoje.jpg" },
+  "pane-carasau": { file: "Pane carasau.jpg" },
+  "pane-pomodoro": { file: "Pa amb tomàquet - 001.jpg" },
+  "tajarin-ragu": { file: "Tajarin al ragù.jpg" },
+  "strangozzi-tartufo": { file: "Tagliatelle kun Trufo, Historia centro de Florenco.jpg" },
+  "polenta-taragna": { file: "Polenta con formaggio 01.jpg" },
 };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -54,10 +108,14 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function politeFetch(url) {
   await sleep(3000);
   for (let attempt = 0; ; attempt++) {
-    const res = await fetch(url, { headers: { "User-Agent": UA } });
-    if (res.ok) return res;
-    if (attempt === 5) throw new Error(`${res.status} em ${url}`);
-    const retryAfter = Number(res.headers.get("retry-after")) || 15 * (attempt + 1);
+    // Falha de rede (DNS, conexão) também conta como tentativa, não derruba a execução de primeira.
+    const res = await fetch(url, { headers: { "User-Agent": UA } }).catch((error) => {
+      if (attempt === 5) throw error;
+      return null;
+    });
+    if (res?.ok) return res;
+    if (attempt === 5) throw new Error(`${res?.status} em ${url}`);
+    const retryAfter = Number(res?.headers.get("retry-after")) || 15 * (attempt + 1);
     await sleep(retryAfter * 1000);
   }
 }

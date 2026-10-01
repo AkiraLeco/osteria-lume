@@ -31,6 +31,8 @@ export type Dish = {
   id: string;
   name: Localized;
   description: Localized;
+  /** Região italiana de origem do prato (ex.: "Lácio" / "Lazio"). */
+  region?: Localized;
   image?: string;
   prices: Price[];
   tags: DietaryTag[];
